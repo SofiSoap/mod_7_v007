@@ -1,0 +1,49 @@
+html {color: black; background-color: cornflowerblue; }
+body { margin: 150px; background-color: white; height: 1000px; }
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
+
+
+table, th, td {
+    border: 1px solid;
+    color: black;
+    background-color: cornflowerblue;
+}
+
+.addTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.delTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+button {
+    background-color: cornflowerblue ;
+    border: 1px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+
